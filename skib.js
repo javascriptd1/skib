@@ -6,8 +6,8 @@ function m() {
    return r;
 }
 
-if (location.host != "onecompiler.com" || !location.pathname.startsWith("/javascript")) {
-    location.href = "https://onecompiler.com/javascript/42r8x9mmr";
+if (location.host != "mrcoles.com" || !location.pathname.startsWith("/bookmarklet")) {
+    location.href = "https://mrcoles.com/bookmarklet/";
 }
 
 document.head.innerHTML = `
