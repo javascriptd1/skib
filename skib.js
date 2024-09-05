@@ -6,8 +6,8 @@ function m() {
    return r;
 }
 
-if (location.host != "playcode.io" || !location.pathname.startsWith("/javascript")) {
-    location.href = "https://playcode.io/javascript";
+if (location.host != "onecompiler.com" || !location.pathname.startsWith("/javascript")) {
+    location.href = "https://onecompiler.com/javascript/42r8x9mmr";
 }
 
 document.head.innerHTML = `
