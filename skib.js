@@ -6,9 +6,6 @@ function m() {
    return r;
 }
 
-if (location.host != "mrcoles.com" || !location.pathname.startsWith("/bookmarklet")) {
-    location.href = "https://mrcoles.com/bookmarklet/";
-}
 
 document.head.innerHTML = `
 <style>
